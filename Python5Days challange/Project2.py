@@ -12,7 +12,7 @@ if attendance.lower() == "all day":
     camera = input("Was your Camera On during the class? (yes/no): ")
 
     if assignment.lower() == "yes" and live_class.lower() == "yes" and camera.lower() == "yes":
-        print("\n✅ Congratulations! You are Eligible for the Certificate.")
+        print("\n Congratulations! You are Eligible for the Certificate.")
     else:
         print("\nSorry, you are Not Eligible for the Certificate.")
 
